@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in static APIClient.getCurrency(date:coin:bank:completion:):APIClientCurrencies.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "json as? [String: Any]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Factory.currenciesFromJson(json:):Factory.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currencyJson[&quot;sell_value&quot;] as? Double">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.tableView(_:cellForRowAt:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currencies?[indexPath.row].sellValue">
+            </PersistentString>
+            <PersistentString
+               value = "currency!.sellValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
